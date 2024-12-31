@@ -29,14 +29,14 @@ public class State {
 	public void setLanguage(String language) {
 		this.language = language;
 	}
-
+     //Constructor for Initialization
 	public State(int population, String district, String language) {
 		super();
 		this.population = population;
 		this.district = district;
 		this.language = language;
 	}
-
+      //ToString() Override Method
 	@Override
 	public String toString() {
 		return "State [population=" + population + ", district=" + district + ", language=" + language + "]";
